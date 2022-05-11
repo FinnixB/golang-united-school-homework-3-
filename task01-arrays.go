@@ -7,7 +7,7 @@ func average(input [15]float32) (result float32) {
 		result = input[i] + result
 	}
 
-	result = result / len(input)
+	result = result / (float32)(len(input))
 
 	return
 }
